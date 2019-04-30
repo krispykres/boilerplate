@@ -5,6 +5,41 @@ body{
 
 header{
       h1{
-            @include box;
-      }
+          @include box;
+		  text-align: center;
+	}
+	
 }
+
+
+nav{
+	font-size: 1em;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-family: 'Roboto', sans-serif;
+/*	font-size: 1em;*/
+	text-transform: uppercase;
+	
+	ul{
+		text-decoration: none;
+		text-align: center;
+		
+		li{
+			display: inline;
+			padding: 3%;
+		}
+	}
+}
+
+p{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+figure{
+	display: flex;
+	justify-content: center;
+	margin-top: 3%;
+	 margin-bottom: 3%;
+}
+
